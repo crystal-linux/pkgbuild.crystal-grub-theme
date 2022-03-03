@@ -9,6 +9,8 @@ url="https://git.tar.black/crystal/grub-theme"
 depends=('grub')
 source=("stuff::git+https://git.tar.black/crystal/grub-theme.git")
 
+sha256sums=("SKIP")
+
 package() {
     cd ${srcdir}/stuff
     mkdir -p ${pkgdir}/usr/share/grub/themes
